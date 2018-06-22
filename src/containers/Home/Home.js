@@ -1,24 +1,26 @@
 import React, { Component } from 'react';
-import Header from '../../components/Header/Header'
-import Footer from '../../components/Footer/Footer'
+import './style/home.css';
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <Header />
         {/* Banner */}
         <section id="banner">
           <div className="content">
-            <h1>TEAM UP</h1>
-            <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod<br />sed arcu cras consecuat lorem ipsum dolor sit amet.</p>
+            <h2>Un loisir un sport en un clic</h2>
+            <h3>Créer, participer et partager en tout simplicité</h3>
             <ul className="actions">
-              <li><a href="#one" className="button scrolly">Get Started</a></li>
+              <li><input type="text" placeholder="Loisirs/Sports" id="RechercheInput" /></li>
+              <li><input type="text" placeholder="Où ?" id="RechercheInput" /></li>
+              <li><input type="submit" value="Rechercher" id="RechercheInput" /></li>
             </ul>
+            <h3>Entreprises & Associations ?</h3>
+            <h2>Proposer la reservation en ligne</h2>
           </div>
         </section>
 
-        {/* One */}
+        {/* One 
         <section id="one" className="wrapper">
           <div className="inner flex flex-3">
             <div className="flex-item left">
@@ -46,8 +48,9 @@ class Home extends Component {
             </div>
           </div>
         </section>
+        */}
 
-        {/* Two */}
+        {/* Two 
         <section id="two" className="wrapper style1 special">
           <div className="inner">
             <h2>Feugiat lorem</h2>
@@ -62,8 +65,8 @@ class Home extends Component {
             </figure>
           </div>
         </section>
-
-        {/* Three */}
+*/}
+        {/* Three 
         <section id="three" className="wrapper">
           <div className="inner flex flex-3">
             <div className="flex-item box">
@@ -95,8 +98,7 @@ class Home extends Component {
             </div>
           </div>
         </section>
-
-        <Footer />
+*/}
       </div>
     );
   }

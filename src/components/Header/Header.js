@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
+import './style/header.css'
 
-class Header extends Component {
+export default class Header extends Component {
   render() {
     return (
       <header id="header">
-        <a href="index.html" className="logo">intensify</a>
+        <a href="/" className="logo">TEAM'UP</a>
         <nav className="right">
-          <a href="#" className="button alt">Log in</a>
+          <a href="/Connection" className="button alt">Se connecter</a>
+          <a href="#inscrire" className="button alt">S'inscrire</a>
+          <a href="#pays" className="button alt">France</a>
         </nav>
       </header>
     );
   }
 }
-
-export default Header;

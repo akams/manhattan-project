@@ -1568,7 +1568,7 @@
 	}
 
 	body {
-		background: #fff;
+		background-color: #212934;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2919,7 +2919,7 @@
 /* Banner */
 
 	#banner {
-		padding: 14em 0 12em 0;
+		
 		background-image: url(../../images/banner.jpg);
 		background-size: cover;
 		background-position: center top;
@@ -2948,10 +2948,15 @@
 			margin-bottom: 1.75em;
 		}
 
+		#banner {
+			padding: 5em 0 5em 0;
+		}
+
+
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 12em 0 10em 0;
+				padding: 5em 0 5em 0;
 			}
 
 		}
@@ -3136,7 +3141,6 @@
 
 	#footer {
 		padding: 6em 0 4em 0;
-		background: #25a2c3;
 		text-align: center;
 		color: #c8e7f0;
 	}
