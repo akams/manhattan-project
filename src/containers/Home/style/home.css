@@ -1,18 +1,33 @@
-h2 {
-    color: #ffcf00;
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-h3 {
-    color: #eb3002;
+h2{
+    color:#2a6aa5;
+    text-align: center;
 }
 
-.Recherche {
+h3{
+    text-align: center;
+}
+
+.boxEnterprise{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 500px;
+    margin: 5%;
     margin-left: auto;
-    margin-right: auto;
-
+    margin-right: auto; 
 }
 
-#RechercheInput {
-    width: 300px;
+.actions{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 30px;
+}
+
+.actions li{
     display: inline-block;
 }

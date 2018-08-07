@@ -1,14 +1,20 @@
- #footer {
-    background-color: black;
-    text-align: left;
+
+footer .blueBorder{
+    display:inline-block;
 }
-#footer h3 {
-    text-align: center;
-    color: #ffcf00;
+footer .blueBorder li{
+    font : bold;
+    display:inline-block;
+    padding: 10px;
+}
+footer .blueBorder li a{
+    font : bold;
+    color: white;
 }
 
-.footerContact {
-    color : red;
-    background-color: white;
-    text-align: center;
+.boxContainer{
+    display: table-cell;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10%;
 }

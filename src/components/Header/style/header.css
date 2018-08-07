@@ -1,4 +1,51 @@
-#header {
-    background-color: black;
-    text-align: left;
+body{
+    margin:0;
+}
+
+.nav{
+    height: 120px;
+    position: static;
+    padding-bottom: 50px;
+}
+
+.blueBorder{
+    background-image: linear-gradient(#2a6aa5, #2e74b5);
+    width: 100%;
+    height: 40px;
+}
+
+.logo{
+    width: 120px;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logoTitle{
+    font-family: 'Stardos Stencil',cursive;
+    font-size : 40px;
+    position: relative;
+    margin-top: 20%;
+}
+
+.logoTitle .blue{
+    color: #2a6aa5;
+    display: table-cell;
+}
+
+.logoTitle .gray{
+    color: gray;
+    display: table-cell;
+}
+
+.rightNav{
+    display: inline-block;
+    
+}
+.rightNav li{
+    padding: 10px;
+    display: inline-block;
+    font-size: 20px;   
 }

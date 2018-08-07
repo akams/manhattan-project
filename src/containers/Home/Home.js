@@ -15,8 +15,10 @@ class Home extends Component {
               <li><input type="text" placeholder="Où ?" id="RechercheInput" /></li>
               <li><input type="submit" value="Rechercher" id="RechercheInput" /></li>
             </ul>
-            <h3>Entreprises & Associations ?</h3>
-            <h2>Proposer la reservation en ligne</h2>
+            <div className="boxEnterprise">
+              <h4>Pour accéder à l'espace Entreprise/ Associations</h4>
+              <a href="#enterprise">Cliquer ici</a>
+            </div>
           </div>
         </section>
 
